@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added for better box model handling */
+    font-family:  "Basis Grotesque Pro" ;
+    
+  }
+
+
+  nav {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center; 
+  }
+  
+  nav img {
+    width: 171px;
+    height: auto; /* Changed height to auto for better aspect ratio handling */
+  }
+  
+  
+  .nav-links{
+      flex: 1;
+      text-align: center;
+  
+  }
+  
+
+  
+  .nav-links ul li{
+      list-style: none ;
+      display: inline-block;
+      padding: 8px 20px;
+      position: relative;
+  }
+  
+  .nav-links ul li a{
+     color: black ;
+     text-decoration: none;
+  }
+  
+  .btn3{
+    border-radius: 35px;
+    background-color: rgba(0, 0, 128, 1);
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+   padding: 5px 10px 5px 10px; 
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+  color: white;
+
+ }
+
+ .btn4{
+    border-radius: 35px;
+    background-color: rgba(238, 238, 238, 1);
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+ }
+
+ .sec-one-body{
+   
+    
+   height: 300px;
+   text-align: center;
+  
+   
+ }
+ .sec-one-body h1{
+    padding: 50px;
+    font-size: 50px;
+    position: relative;
+   
+ }
+
+ .vector{
+    position: absolute;
+    display: block;
+    left:60%;
+    top: 33%;
+    margin: auto;
+ }
+ .vector img{
+    width: 100%;
+    height: 100%;
+ }
+ .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input-wrapper {
+    position: relative;
+    width: 500px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 50px 10px 40px; /* Space for icon and button */
+    font-size: 16px;
+    border: 1px solid rgba(0, 175, 235, 1);
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #ccc;
+
+}
+.search-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: none;
+    background-color:  rgba(0, 0, 128, 1);
+    color: white;
+    padding: 0 30px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+.sec-three h1{
+    color: black;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.styling{
+    text-align: center;
+   
+    
+}
+
+.styling h1{
+    margin-top:100px;
+    margin-bottom: 10px;
+}
+
+.styling p{
+    margin-bottom: 10px;
+    color: rgba(100, 100, 100, 1);
+}
+
+.section-three{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.sec-three-body{
+    display: grid;
+    gap:30px;
+    grid-template-columns:repeat(auto-fit,minmax(240px,300px));
+    position: relative;
+    border-color: aqua;
+    text-align: center;
+}
+
+.buttonss h1{
+    margin-top: 50px;
+}
+.btn6{
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid rgba(0, 175, 235, 1);
+    font-size: 16px;
+    display: inline-block;
+   padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+  color: black;
+  height: 40px;
+  margin-left: 10px;
+  }
+
+
+.grid{
+    border: 1px solid rgba(0, 0, 128, 1);
+    border-radius: 10px;
+}
+
+.grid img{
+    margin-top: 20px;
+}
+.grid p{
+    padding:10px 20px 30px 50px;
+    color: rgba(100, 100, 100, 1);
+    
+}
+
+.btn9{
+    border-radius: 50px;
+    background-color:  rgba(0, 0, 128, 1);
+    color: white;
+    padding: 10px;
+    float: right;
+    font-size: 18px;
+
+    }
+    .btn9 i{
+      transform: rotate(45deg);
+    }
+
+
+ @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 1% 4%;
+      text-align: center;
+    }
+    
+    .nav-links ul {
+      text-align: center;
+    }
+
+    footer{
+        flex-direction: column;
+        padding:1% 4%;
+    }
+
+   
+    .vector{
+        display: block;
+    }
+  }
+
+
+
+
+.footer{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.social-media a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.horizontal hr{
+   
+   
+    height:2px;
+    border-width:0; 
+    color:rgba(0, 0, 128, 1);
+    background-color:rgba(0, 0, 128, 1);
+}
+footer hr{
+    display: block;
+    width: 70%;
+    margin: auto;
+   
+    height:2px;
+    border-width:0;
+    
+    color:rgba(0, 0, 128, 1);
+    background-color:rgba(0, 0, 128, 1);
+}
+.end{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end ul li{
+    list-style: none ;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+}
+
+  
+.form-select {
+	display: block;
+	width: 120px;
+	padding: .375rem 2.25rem .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-position: right .75rem center;
+	background-size: 16px 12px;
+	border: 1px solid #a3a3a3;
+	border-radius: .25rem;
+	-webkit-appearance: none;
+	appearance: none;
+    
+}
+
+ .btn7{
+    border-radius: 8px;
+    background-color: rgba(238, 238, 238, 1);
+    border: none;
+    font-size: 14px;
+    display: inline-block;
+   padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+ }
+ 
+ .btn8{
+  
+    border-radius: 8px;
+    background-color: rgba(238, 238, 238, 1);
+    border: none;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+ }
+
+ footer p{
+    text-align: center;
+ }  
+
+ 
+        
+ 
+  @media (min-width: 768px) {
+
+   
+  }
+    
+ 

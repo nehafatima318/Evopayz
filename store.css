@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added for better box model handling */
+    font-family:  "Basis Grotesque Pro" ;
+    
+  }
+
+
+  nav {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center; 
+  }
+  
+  nav img {
+    width: 171px;
+    height: auto; /* Changed height to auto for better aspect ratio handling */
+  }
+  
+  
+  .nav-links{
+      flex: 1;
+      text-align: center;
+  
+  }
+  
+
+  
+  .nav-links ul li{
+      list-style: none ;
+      display: inline-block;
+      padding: 8px 20px;
+      position: relative;
+  }
+  
+  .nav-links ul li a{
+     color: black ;
+     text-decoration: none;
+  }
+  
+  .btn3{
+    border-radius: 35px;
+    background-color: rgba(0, 0, 128, 1);
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+   padding: 5px 10px 5px 10px; 
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+  color: white;
+
+ }
+
+ .btn4{
+    border-radius: 35px;
+    background-color: rgba(238, 238, 238, 1);
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+ }
+
+ .sec-one{
+
+  
+   position: relative;
+ }
+
+ .Worldwide{
+    position: absolute;
+    left: 0;
+    top: 410px;
+ }
+
+ .Worldwide img{
+    width: 50%;
+    height: 50%;
+ }
+
+ .worlds{
+    position: absolute;
+    left:300px;
+    top:380px;
+
+ }
+
+ .worlds img{
+  height:90%;
+  width: 90%;
+ }
+
+.sec-one-body{
+    
+    background-image: linear-gradient(rgba(0, 0, 128, 1),rgba(0, 175, 235, 1));
+    display: block;
+   align-items: center;
+   height: 300px;
+}
+
+
+.paragraph{
+    text-align: center;
+  
+}
+
+.paragraph h1{
+        color: white;
+
+}
+
+.paragraph p{
+    color: white;
+
+}
+
+.btn5{
+    border-radius: 40px;
+    background-color: rgba(0, 0, 128, 1);
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+   padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+  color: white;
+  width: 200px;
+  height: 40px;
+  font-weight: 700;
+  }
+
+  .btn6{
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid rgba(0, 175, 235, 1);
+    font-size: 16px;
+    display: inline-block;
+   padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+  color: black;
+  height: 40px;
+  font-weight: 700;
+  margin-left: 10px;
+  }
+
+  .sec-two{
+    margin: 100px auto;
+    display: block;
+    width: 90%;
+  }
+  .paragraphs h5{
+    color:rgba(0, 175, 235, 1);
+  }
+
+
+  .sec-three{
+    display: block;
+    margin: 100px auto;
+    width: 70%;
+  }
+
+  .sec-three p{
+    color: rgba(100, 100, 100, 1); 
+    margin-left: 50px; 
+  }
+
+  span{
+    color:  black;
+    font-weight: bold;
+  }
+
+  .sec-three img{
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .text-alignment{
+    display: block;
+    
+    margin-bottom: 30px;
+    width: 70%;
+  
+  }
+
+  .text-alignment p{
+          margin-left: 50px; 
+  }
+  .sec-three h5{
+    color: rgba(0, 175, 235, 1) ;
+    margin-left: 50px; 
+  }
+ @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 1% 4%;
+      text-align: center;
+    }
+    
+    .nav-links ul {
+      text-align: center;
+    }
+
+    footer{
+        flex-direction: column;
+        padding:1% 4%;
+    }
+
+    .vector{
+        display: none;
+     }
+    
+  }
+
+
+
+
+.footer{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.social-media a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.horizontal hr{
+   
+   
+    height:2px;
+    border-width:0; 
+    color:rgba(0, 0, 128, 1);
+    background-color:rgba(0, 0, 128, 1);
+}
+footer hr{
+    display: block;
+    width: 70%;
+    margin: auto;
+   
+    height:2px;
+    border-width:0;
+    
+    color:rgba(0, 0, 128, 1);
+    background-color:rgba(0, 0, 128, 1);
+}
+.end{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end ul li{
+    list-style: none ;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+}
+
+  
+.form-select {
+	display: block;
+	width: 120px;
+	padding: .375rem 2.25rem .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-position: right .75rem center;
+	background-size: 16px 12px;
+	border: 1px solid #a3a3a3;
+	border-radius: .25rem;
+	-webkit-appearance: none;
+	appearance: none;
+    
+}
+
+ .btn7{
+    border-radius: 8px;
+    background-color: rgba(238, 238, 238, 1);
+    border: none;
+    font-size: 14px;
+    display: inline-block;
+   padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+ }
+ 
+ .btn8{
+  
+    border-radius: 8px;
+    background-color: rgba(238, 238, 238, 1);
+    border: none;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin: 20px auto; /* Centered on smaller screens */
+ }
+
+ footer p{
+    text-align: center;
+ }  
+
+ 
+        
+ 
+  @media (min-width: 768px) {
+
+    
+    .sec-one-body{
+        width: 100%;
+        height:500px ;
+       
+    }
+
+    .paragraph{
+        padding: 150px 0;
+      
+    }
+
+    .paragraph h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Worldwide{
+        position: absolute;
+        left: 0;
+        top: 485px;
+     }
+  
+     
+ .Worldwide img{
+    width: 90%;
+    height: 90%;
+ }
+
+ .worlds{
+    position: absolute;
+    left:1200px;
+    top:390px;
+
+ }
+
+ .worlds img{
+  height:90%;
+  width: 90%;
+ }
+
+ .paragraphs p{
+    font-size:25px;
+    width: 30vw;
+  }
+
+}
+    
+ 
